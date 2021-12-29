@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 1200px;
+    height: 580px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.tavern {
+    width: 100%;
+    height: 100%;
+}
+
+.back {
+    position: absolute;
+    top: 45%;
+}
+
+.back:hover {
+    background-color: khaki;
+}

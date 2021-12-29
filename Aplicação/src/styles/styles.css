@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 90%;
+    height: 580px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    background-image: url(/src/images/main.png);   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vilarejo {
+    position: absolute;
+    left: 60%;
+    top: 31%;
+    padding: 5px;
+}
+
+.vilarejo:hover {
+    background-color: rgb(138, 138, 138);
+    border-radius: 50px;
+}
+
+.florestavelha {
+    position: absolute;
+    left: 81%;
+    top: 31%;
+    padding: 5px;
+}
+
+.florestavelha:hover {
+    background-color: rgb(138, 138, 138);
+    border-radius: 50px;
+}
