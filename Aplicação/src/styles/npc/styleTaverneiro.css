@@ -53,4 +53,12 @@
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
 }

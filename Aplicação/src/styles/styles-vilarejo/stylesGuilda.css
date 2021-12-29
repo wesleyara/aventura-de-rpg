@@ -44,3 +44,32 @@
     background-color: rgb(138, 138, 138);
     cursor: pointer;
 }
+
+#missaoConteudo {
+    display: none;
+    position: absolute;
+    width: 50%;
+    height: 200px;
+    padding: 30px;
+    background-color: rgb(138, 138, 138);
+    color: white;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}

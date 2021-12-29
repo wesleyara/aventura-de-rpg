@@ -8,6 +8,6 @@ next.addEventListener("click", () => {
       </p>
       <br>
       <br>
-      <center><input class="button" onclick="jogar()" type="button" value="Jogar"> <input class="button" onclick="aventura()" type="button" value="Uma aventura"> <input class="button" onclick="beber()" type="button" value="Beber"></center>
+      <center><input class="button" id="jogar" type="button" value="Jogar"> <input class="button" id="beber" type="button" value="Beber"></center>
       `;
 });
